@@ -6,7 +6,18 @@
   font-family: Outfit;
 }
 
-root{
+#root{
   min-height: 100vh;
   display: flex;
+  animation: fadeIn 1.5 s;
 }
+
+@keyframes fadeIn{
+0%{
+  opacity: 0;
+} 
+100%{
+  opacity: 1;
+}
+}
+
